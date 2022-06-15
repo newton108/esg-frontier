@@ -1,0 +1,14 @@
+search_rules:
+   start-time: 2016-01-01
+   end-time: 2022-05-31
+   query: "(from:ATT OR from:Mastercard OR from:3M OR from:AmericanExpress OR from:Amgen OR from:Apple OR from:Boeing OR from:CaterpillarInc OR from:Chevron OR from:Cisco OR from:Disney OR from:CocaCola OR from:DowNewsroom OR from:GoldmanSachs OR from:HomeDepot OR from:honeywell OR from:IBM OR from:intel OR from:JNJNews OR from:jpmorgan OR from:McDonalds OR from:Merck OR from:Microsoft OR from:Nike OR from:ProcterGamble OR from:salesforce OR from:Travelers OR from:UnitedHealthGrp OR from:Walmart OR from:Walgreens) lang:en -is:reply"
+
+search_params:
+    results-per-call: 500
+    max-tweets: 1000000
+    tweet-fields: id,created_at,author_id,text
+
+output_params:
+    save_file: True
+    filename_prefix: tweets_raw
+

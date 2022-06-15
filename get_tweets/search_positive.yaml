@@ -1,0 +1,12 @@
+search_rules:
+    start-time: 2022-06-01
+    end-time: 2022-06-14
+    query: "(#sustainability OR #green OR #environment OR #climatechange OR #Renewable OR #ClimateCrisis OR #Recycle OR #ClimateAction) lang:en -is:reply"
+ 
+search_params:
+    results-per-call: 500
+    max-tweets: 15000
+ 
+output_params:
+    save_file: True
+    filename_prefix: tweets_positive

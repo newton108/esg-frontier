@@ -1,0 +1,17 @@
+name: esg-frontier
+channels:
+  - default
+  - pytorch
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - matplotlib
+  - pytorch
+  - scipy
+  - tqdm
+  - scikit-learn
+  - seaborn
+  - spacy=3.3.0
+  - spacy-transformers
+  - ipywidgets
