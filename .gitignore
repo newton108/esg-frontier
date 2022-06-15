@@ -4,7 +4,7 @@ spacy_data/*
 data/*
 output
 *.json
-
+esg-frontier-twitter.md
 
 !tickers_dow.csv
 !tickers_sp_100.csv
