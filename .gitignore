@@ -1,0 +1,10 @@
+get_tweets/.twitter_keys.yaml
+get_tweets/tweets_data/*
+spacy_data/*
+data/*
+output
+*.json
+
+
+!tickers_dow.csv
+!tickers_sp_100.csv
